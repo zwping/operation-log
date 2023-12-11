@@ -17,6 +17,7 @@ class OperationLogServiceProvider extends ServiceProvider
         [
             'title' => 'Operation Log',
             'uri'   => 'auth/operation-logs',
+            'icon'  => 'fa-barcode',
         ],
     ];
 

@@ -4,10 +4,11 @@ namespace Dcat\Admin\OperationLog\Models;
 
 use Dcat\Admin\Traits\HasDateTimeFormatter;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class OperationLog extends Model
 {
-    use HasDateTimeFormatter;
+    use HasDateTimeFormatter, SoftDeletes;
 
     protected $table = 'admin_operation_log';
 
