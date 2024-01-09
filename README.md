@@ -1,12 +1,18 @@
-<div align="center">
-    <img src="http://www.dcatadmin.com/assets/img/logo-text.png" height="80"> 
-</div>
-<br>
+# Dcat Admin 操作日志扩展
 
+[![](https://img.shields.io/packagist/v/zwping/operation-log.svg)](https://packagist.org/packages/zwping/operation-log)
 
-## Dcat Admin 操作日志扩展
+#### 安装
+```
+composer require zwping/operation-log
+```
 
-### 安装
+>具体安装方法请参考[官方文档](https://learnku.com/docs/dcat-admin/2.x/extended-basic-usage/9691)
 
-下载`zip`压缩包，打开扩展管理页面，点击`本地安装`按钮选择提交，然后找到`form-step`行点击`启用`按钮。
+#### 使用方法
+
+#### License
+
+Licensed under The [MIT License (MIT). ](https://github.com/zwping/operation-log/blob/master/LICENSE)
+
 
