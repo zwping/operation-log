@@ -21,8 +21,7 @@ class OperationLogServiceProvider extends ServiceProvider
         ],
     ];
 
-    public function settingForm()
-    {
-        return new Setting($this);
-    }
+    // public function settingForm() {
+    //     return new Setting($this);
+    // }
 }
