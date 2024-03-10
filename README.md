@@ -1,18 +1,17 @@
-# Dcat Admin 操作日志扩展
+# Dcat Admin Extension
 
 [![](https://img.shields.io/packagist/v/zwping/operation-log.svg)](https://packagist.org/packages/zwping/operation-log)
 
-#### 安装
-```
-composer require zwping/operation-log
-```
+Dcat Admin 操作日志
 
->具体安装方法请参考[官方文档](https://learnku.com/docs/dcat-admin/2.x/extended-basic-usage/9691)
+## 截图
 
-#### 使用方法
-
-#### License
-
-Licensed under The [MIT License (MIT). ](https://github.com/zwping/operation-log/blob/master/LICENSE)
+![main](https://raw.githubusercontent.com/zwping/operation-log/master/screenshot/main.png)
 
 
+## 安装
+
+1. `composer require zwping/operation-log`
+2. 扩展中更新&启用
+3. 配置用户菜单&权限
+4. 打开 http://your-host/admin/logs
