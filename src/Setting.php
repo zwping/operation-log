@@ -15,7 +15,6 @@ class Setting extends Form
 
     protected function formatInput(array $input)
     {
-        $input['except'] = Helper::array($input['except']);
         $input['allowed_methods'] = Helper::array($input['allowed_methods']);
 
         return $input;
@@ -23,9 +22,9 @@ class Setting extends Form
 
     public function form()
     {
-        $this->tags('except');
         $this->multipleSelect('allowed_methods')
             ->options(array_combine(OperationLog::$methods, OperationLog::$methods));
-        $this->tags('secret_fields');
+        $this->textarea('except')->placeholder("eg: /auth/operation-logs,/backup,")->help(',分隔 不需要admin/前缀');
+        $this->textarea('secret_fields')->placeholder("eg: password,password_confirmation")->help(',分隔');
     }
 }

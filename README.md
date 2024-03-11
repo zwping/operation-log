@@ -7,6 +7,7 @@ Dcat Admin 操作日志
 ## 截图
 
 ![main](https://raw.githubusercontent.com/zwping/operation-log/master/screenshot/main.png)
+![setting](https://raw.githubusercontent.com/zwping/operation-log/master/screenshot/setting.png)
 
 
 ## 安装
@@ -14,4 +15,4 @@ Dcat Admin 操作日志
 1. `composer require zwping/operation-log`
 2. 扩展中更新&启用
 3. 配置用户菜单&权限
-4. 打开 http://your-host/admin/logs
+4. 打开 http://your-host/admin/auth/operation-logs

@@ -9,17 +9,20 @@ use Dcat\Admin\Support\Helper;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
-class LogOperation
-{
+class LogOperation {
+
+    /** 机密字段, 会自动加※ */
     protected $secretFields = [
         'password',
         'password_confirmation',
     ];
 
+    /** 额外的路由, 不记录到操作日志中去 */
     protected $except = [
         'dcat-admin.operation-log.*',
     ];
 
+    /** 允许的方法 */
     protected $defaultAllowedMethods = ['GET', 'HEAD', 'POST', 'PUT', 'DELETE', 'CONNECT', 'OPTIONS', 'TRACE', 'PATCH'];
 
     /**
@@ -145,12 +148,12 @@ class LogOperation
 
     protected function except()
     {
-        return array_merge((array) $this->setting('except'), $this->except);
+        return array_merge(Helper::array($this->setting('except')), $this->except);
     }
 
     protected function getSecretFields()
     {
-        return array_merge((array) $this->setting('secret_fields'), $this->secretFields);
+        return array_merge(Helper::array($this->setting('secret_fields')), $this->secretFields);
     }
 
     protected function getAllowedMethods()
