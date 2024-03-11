@@ -2,7 +2,7 @@
   "name": "zwping/operation-log",
   "description": "Dcat Admin 操作日志扩展",
   "type": "library",
-  "keywords": ["dcat-admin", "extension"],
+  "keywords": ["dcat-admin", "extension", "operation-log"],
   "homepage": "https://github.com/zwping/operation-log",
   "license": "MIT",
   "authors": [

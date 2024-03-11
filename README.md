@@ -1,8 +1,6 @@
-# Dcat Admin Extension
+# Dcat Admin 操作日志
 
 [![](https://img.shields.io/packagist/v/zwping/operation-log.svg)](https://packagist.org/packages/zwping/operation-log)
-
-Dcat Admin 操作日志
 
 ## 截图
 
