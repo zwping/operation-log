@@ -6,7 +6,7 @@ Dcat Admin 操作日志
 
 ## 截图
 
-![main](https://raw.githubusercontent.com/zwping/operation-log/master/screenshot/main.png)
+![main](https://raw.githubusercontent.com/zwping/operation-log/master/screenshot/main2.png)
 ![setting](https://raw.githubusercontent.com/zwping/operation-log/master/screenshot/setting.png)
 
 
